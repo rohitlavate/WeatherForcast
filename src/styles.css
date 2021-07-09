@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; background-color: #d9d9d9;}
+body { margin: 15px 0px 0px 30px; font-family: 'Open Sans', "Helvetica Neue", sans-serif; }
+
+.pull-right {
+    float: right;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+.pull-right:hover {
+    text-decoration-line: none;
+}
+
+.weather-summary-center {
+    width: 50%;
+    height: 570px;
+    margin: 0 auto;
+    background-image: url('./assets/background-3268840_1920.jpg');
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+}
+@media screen and (max-width: 359px) {
+    .weather-summary-center{
+    width: 100%!important;
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 399px) {
+    .weather-summary-center{
+        width: 100%!important;
+        }     
+}
+@media screen and (min-width: 400px) and (max-width: 479px) {
+    .weather-summary-center{
+        width: 100%!important;
+        } 
+}
+@media screen and (min-width: 480px) and (max-width: 599px) {
+    .weather-summary-center{
+        width: 100%!important;
+        } 
+}
+@media screen and (min-width: 600px) and (max-width: 839px) {
+    .weather-summary-center{
+        width: 100%!important;
+        }
+}

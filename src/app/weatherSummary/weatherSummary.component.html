@@ -1,0 +1,5 @@
+<div class="container weather-summary-center" *ngIf="listOfCities">
+    <div *ngFor="let cityObj of listOfCities">
+        <city-weather-summary [cityObj]="cityObj" *ngIf="cityObj"></city-weather-summary>
+    </div>
+</div>
